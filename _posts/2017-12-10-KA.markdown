@@ -2,7 +2,7 @@
 title:  "Allo"
 date:   2017-11-10 10:18:00
 description: Thriller Comedy Horror
-use_math: true
+latex: true
 ---
 
 Phương trình $x^2 + y^2 = z^2$ gọi là phương trình Pythagores. Trên $\mathbb{Z}$, ta sẽ luôn tìm được bộ nghiệm của chúng
