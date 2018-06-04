@@ -16,7 +16,7 @@ profile: false
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
            {% unless forloop.first %}</ul>{% endunless %}
-           <h2>{{ currentDate }}</h2>
+           <h1>{{ currentDate }}</h1>
            <ul>
            {% assign myDate = currentDate %}
        {% endif %}
