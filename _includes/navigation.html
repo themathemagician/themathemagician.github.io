@@ -1,0 +1,27 @@
+<nav class="main-nav">
+    {% if page.url == "/" %}
+        <a> Trang chủ </a>
+    {% endif %}
+
+    {% if page.url != "/" %}
+        <a href="{{ "/" | relative_url  }}"><span class="arrow">←</span> Trang chủ </a>
+    {% endif %}
+
+    {% if page.url == "/about/" %}
+        <a> Giới thiệu </a>
+    {% endif %}
+
+    {% if page.url != "/about/" %}
+        <a href="{{ "/" | relative_url  }}about"> Giới thiệu </a>
+    {% endif %}
+
+    {% if page.url == "/contact/" %}
+        <a> Liên hệ </a>
+    {% endif %}
+
+    {% if page.url != "/contact/" %}
+    <a href="{{ "/" | relative_url  }}contact"> Liên hệ </a>
+    {% endif %}
+
+    <!NOTE: ←>
+</nav>
