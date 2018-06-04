@@ -19,7 +19,7 @@ url:            'http://themathemagician.github.io'
 author:         'Nghia T.Nguyen'
 authorTwitter:  ''
 
-permalink:       /post/:year/:title/
+permalink:       /:year/:title/
 
 defaults:
     -
