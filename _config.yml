@@ -6,7 +6,7 @@ highlighter: rouge
 
 aboutPage: true
 
-markdown: maruku # Can replace by kramdown
+markdown: kramdown # Can replace by kramdown
 highlighter: rouge
 
 plugins: [jekyll-paginate]
