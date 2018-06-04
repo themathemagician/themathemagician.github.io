@@ -6,7 +6,7 @@ highlighter: rouge
 
 aboutPage: true
 
-markdown: maruku # Can replace by kramdown
+markdown: kramdown # Can replace by kramdown
 highlighter: rouge
 
 plugins: [jekyll-paginate]
@@ -17,7 +17,7 @@ google_analytics: 'UA-XXXXXXXX-X'
 # Details for the RSS feed generator
 url:            'http://themathemagician.github.io'
 author:         'Nghia T.Nguyen'
-authorTwitter:  'N/A'
+authorTwitter:  ''
 
 permalink:       /:year/:title/
 
